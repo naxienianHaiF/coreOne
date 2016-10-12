@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="gbk"?>
+<!--
+记事本xml默认保存时GBK,另存为可以改变保存时的编码方式或者通过文档声明  
+ eclipse开发XML文件的时候，保存xml文件时自动按照文档声明的encoding来保存文档
+ -->
+<contacts>
+	<contact id ="1">
+		<name>ct</name>
+		<address>武汉</address>
+		<cup>C</cup>
+		<qq>1234567</qq>
+	</contact>
+	<contact id="2">
+		<name>zjq</name>
+		<address>sh</address>
+		<cup>A</cup>
+		<qq>6547722</qq>
+	</contact>
+<!--
+转义字符    <==&lt;        空格==&nsbp;
+	   >==&gt;
+	   "==&quot         &==&amp
+-->
+	<char>
+		<name>xcf</name>
+		<example>&lt;p&gt;</example>
+	</char>
+</contacts>
